@@ -4,3 +4,16 @@ You will find in this repo all my works that I can share with you. Everything is
 
 ## /Linux/
 Contains *HOW TO* documents for Linux.
+
+## /Compilation du code LaTeX/
+### Linux
+Pour compiler le code sous Linux, il faut installer les paquetages suivants :
+
+- texlive-latex-base
+- texlive-latex-extra
+- python-pygments
+
+La compilation peut ensuite se faire dans un terminal en tapant la commande suivante :
+
+- pdflatex -shell-escape howto.tex
+
