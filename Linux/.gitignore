@@ -1,1 +1,10 @@
-
+# Ignorer les fichiers intermédiaires
+*.aux
+*.log
+*.out
+# Ignorer le fichier local de navigation
+*.synctex.gz
+# Ignorer le fichier généré
+*.pdf
+# Ignorer le répertoire de travail de Minted
+/_minted-howto/*
