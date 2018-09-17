@@ -323,6 +323,33 @@ version de \it{GNU}) accepte aussi les expressions régulières. \\
 \section{Emacs}
 À COMPLETER
 
+\newpage
+\section{Processus Github}
+Pour contribuer \`{a} un projet Github, il y a tout un processsus \`{a} suivre.
+TODO : mettre plus de détails.
+\begin{enumerate}[1]
+\item Se cr\'{e}er un compte Github,
+\item Une fois connect\'{e} sur Github, naviguer sur le projet auquel on veut contribuer,
+\item Faire un ``fork'' du projet,
+\item Se créer un espace git sur sa machine,
+\item Cloner le ``fork'' que nous avons fait sur notre compte Github,
+\item Créer une branche sur laquelle nous ferons nos contributions et se déplacer sur celle-ci,
+\item Faire des ``commits'' de nos contributions
+\item Faire un ``push'' de la branche avec nos contribution sur notre espace Github,
+\item Aller sur notre compte Github, et faire un ``pull request'' de notre branche.
+\end{enumerate}
+
+Les administrateurs/administratrices du projet peuvent accepter ou refuser votre requête. Si demandé, vous pouvez faire des corrections et re-soumettre votre code corrigé.
+
+Si votre contribution est approuvée, celle-ci sera fusionnée au code du projet. Comment, alors obtenir cette version mise-à-jour ? 
+
+\begin{enumerate}[1]
+\item Sur notre espace git, il faut ajouter un nouveau ``remote'', correspondant au projet auquel nous venons de contribuer. Alors qu'on donne à notre espace typiquement le nom de remote de ``origin'', ce nouveau remote s'appelle typiquement ``upstream''. Pour savoir quelle adresse mettre dans ce remote, c'est la même que si vous faisier directement un clone du code.
+\item Vous faites un ``fetch'' de ce nouveau remote.
+\item Vous faites un merge de ``upstream/master'' sur votre branche ``master''.
+\end{enumerate}
+
+Et voilà ! Vous êtes maintenant à jour avec le projet, et vous pouvez maintenant faire une nouvelle contribution.
 
 \newpage
 \section{Manuel}
